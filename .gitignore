@@ -1,5 +1,8 @@
 # Node modules
 node_modules
 
+# Typescript output files
+*.js
+
 # Misc. files
 yarn-error.log
