@@ -1,0 +1,5 @@
+# Node modules
+node_modules
+
+# Misc. files
+yarn-error.log

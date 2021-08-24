@@ -1,0 +1,16 @@
+{
+  "name": "learn-dapps",
+  "version": "1.0.0",
+  "description": "Learn making DApps using Ethereum and Web3",
+  "author": "Mian Muhammad Sharjeel Safdar <miansharjeelsafdar@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  },
+  "repository": "https://github.com/SharjeelSafdar/learn-dapps.git",
+  "private": false,
+  "license": "MIT"
+}
