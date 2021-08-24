@@ -1,0 +1,24 @@
+{
+  "name": "step24-web3-send-transaction-unlocked-account",
+  "version": "1.0.0",
+  "description": "Send a transaction from one unlocked account to another using Web3 and Ganache.",
+  "author": "Mian Muhammad Sharjeel Safdar <miansharjeelsafdar@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn index.ts"
+  },
+  "dependencies": {
+    "typescript": "^4.3.5",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.1",
+    "nodemon": "^2.0.12",
+    "ts-node-dev": "^1.1.8",
+    "tslint": "^6.1.3"
+  },
+  "repository": "https://github.com/SharjeelSafdar/learn-dapps",
+  "private": false,
+  "license": "MIT"
+}
