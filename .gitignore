@@ -9,3 +9,6 @@ types
 
 # Misc. files
 yarn-error.log
+
+# Environment Variables
+.env
