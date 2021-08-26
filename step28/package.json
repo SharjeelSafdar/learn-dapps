@@ -1,0 +1,24 @@
+{
+  "name": "step28-smart-contract-events-with-web3",
+  "version": "1.0.0",
+  "description": "Fetch and study events of a smart contract using Web3.",
+  "author": "Mian Muhammad Sharjeel Safdar <miansharjeelsafdar@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "link-typescript": "npm link typescript",
+    "start": "ts-node-dev --respawn index.ts"
+  },
+  "dependencies": {
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.1",
+    "nodemon": "^2.0.12",
+    "ts-node-dev": "^1.1.8",
+    "tslint": "^6.1.3"
+  },
+  "repository": "https://github.com/SharjeelSafdar/learn-dapps",
+  "private": false,
+  "license": "MIT"
+}
