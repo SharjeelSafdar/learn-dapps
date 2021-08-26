@@ -4,8 +4,8 @@ import dotenv from "dotenv";
 // Create a file named ".env" and write the environment variables as mentioned in ".env.example"
 dotenv.config({ path: "./.env" });
 
-const account1Address = process.env.ACCOUNT1_PUBLIC_KEY;
-const account2Address = process.env.ACCOUNT2_PUBLIC_KEY;
+const account1Address = process.env.ACCOUNT1_PUBLIC_ADDRESS;
+const account2Address = process.env.ACCOUNT2_PUBLIC_ADDRESS;
 const account1PrivateKey = process.env.ACCOUNT1_PRIVATE_KEY;
 const account2PrivateKey = process.env.ACCOUNT2_PRIVATE_KEY;
 
