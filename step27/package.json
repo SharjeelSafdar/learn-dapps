@@ -1,7 +1,7 @@
 {
   "name": "step27-smart-contract-methods-signed-transaction",
   "version": "1.0.0",
-  "description": "Deploy a smart contract to Ropsten Test Network using Web3.",
+  "description": "Run a smart contract method with Web3 that requires a signed transaction.",
   "author": "Mian Muhammad Sharjeel Safdar <miansharjeelsafdar@gmail.com>",
   "main": "index.js",
   "scripts": {
