@@ -9,3 +9,4 @@
 - [Step 27: Run Smart Contract Methods that Require a Signed Transaction](./step27)
 - [Step 28: Fetch Smart Contract Events](./step28)
 - [Step 29: Fetch Blocks from Ethereum Network](./step29)
+- [Step 30: Play with Web3 Utils Submodule](./step30)
