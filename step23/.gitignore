@@ -1,0 +1,5 @@
+# Typescript output files
+*.js
+
+# TypeChain Outputs
+types

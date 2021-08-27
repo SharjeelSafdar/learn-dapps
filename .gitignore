@@ -1,12 +1,6 @@
 # Node modules
 node_modules
 
-# Typescript output files
-*.js
-
-# TypeChain Outputs
-types
-
 # Misc. files
 yarn-error.log
 
