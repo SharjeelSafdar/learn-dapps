@@ -1,0 +1,9 @@
+{
+  "name": "step01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.0"
+  }
+}
