@@ -25,6 +25,13 @@ export const Account: FC = () => {
           console.log(`Block #${blockHeader.number}`);
         }
       });
+
+    return () => {
+      web3 &&
+        web3.eth.clearSubscriptions((err, result) => {
+          console.log({ err, result });
+        });
+    };
   }, [web3, getBalance]);
 
   return (
@@ -34,3 +41,4 @@ export const Account: FC = () => {
     </>
   );
 };
+
