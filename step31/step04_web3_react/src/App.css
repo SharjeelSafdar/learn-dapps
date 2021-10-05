@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  background-color: rgb(102, 51, 153);
+  color: whitesmoke;
+  padding: 10px 30px;
+  display: inline;
+  margin: 10px 20px;
+  min-width: 250px;
+  cursor: pointer;
+}
+button:disabled {
+  background-color: rgba(102, 51, 153, 0.4);
+  cursor: not-allowed;
+}
+
+#error {
+  color: red;
+}
+
+input {
+  min-width: 237px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+}
